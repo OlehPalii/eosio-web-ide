@@ -1,5 +1,7 @@
 #include <eosio/eosio.hpp>
 
+
+//cleos get table talk '' message
 // Message table
 struct [[eosio::table("message"), eosio::contract("talk")]] message {
     uint64_t    id       = {}; // Non-0
